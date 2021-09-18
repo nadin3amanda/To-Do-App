@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Just+Another+Hand&display=swap");
+body {
+  font-family: "Just Another Hand", cursive;
+  width: 50%;
+  margin: auto;
+  background-image: linear-gradient(#e76f51, #f4a261, #e9c46a, #2a9d8f, #264653);
+}
+h1 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 40px;
+  text-align: center;
+
+  width: 50%;
+  margin: auto;
+  margin-top: 45px;
+  color: #264653;
+}
+
+.container {
+  margin: auto;
+  width: 450px;
+  height: 650px;
+  border: none;
+  background-image: url(./images/To_do.png);
+  font-size: 50px;
+  font-family: "Just Another Hand", cursive;
+  line-height: 0.17rem;
+  padding-left: 50px;
+}
+
+.inputField {
+    position: absolute;
+  width: 350px;
+  height: 40px;
+  border: 0px none #ffffff;
+  border-width: 350px;
+  background: transparent;
+  font-size: 20px;
+  font-family: "Just Another Hand", cursive;
+  letter-spacing: 0.23rem;
+  margin-left: 350px;
+  margin-top: -7px;
+}
+
+#addToDo {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: turquoise;
+  vertical-align: middle;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.to-dos {
+  margin-top: 30px;
+}
+
+.paragraph-styling {
+  cursor: pointer;
+  margin-top; 50px;
+  font-size: 50px;
+  font-family: "Just Another Hand", cursive;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 0.14rem;
+  font-family: "Just Another Hand", cursive;
+}
+footer a{
+    text-decoration: none;
+    color: #e9c46a;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        margin: auto;
+
+
+
+    }
+    h1{
+        width: 200px;
+    }
+    .container{
+        width: 115%;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+        text-align: center;
+        width: 100%;
+
+    }
+}
